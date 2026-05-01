@@ -32,8 +32,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    # 'jet.dashboard',
-    # 'jet',
     "unfold",
     "unfold.contrib.filters",  # optional, if special filters are needed
     "unfold.contrib.forms",  # optional, if special form elements are needed
@@ -137,39 +135,3 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# JET_DEFAULT_THEME = 'default'
-
-# JET_THEMES = [
-#     {
-#         'theme': 'default', # theme folder name
-#         'color': '#47bac1', # color of the theme's button in user menu
-#         'title': 'Default' # theme title
-#     },
-#     {
-#         'theme': 'green',
-#         'color': '#44b78b',
-#         'title': 'Green'
-#     },
-#     {
-#         'theme': 'light-green',
-#         'color': '#2faa60',
-#         'title': 'Light Green'
-#     },
-#     {
-#         'theme': 'light-violet',
-#         'color': '#a464c4',
-#         'title': 'Light Violet'
-#     },
-#     {
-#         'theme': 'light-blue',
-#         'color': '#5EADDE',
-#         'title': 'Light Blue'
-#     },
-#     {
-#         'theme': 'light-gray',
-#         'color': '#222',
-#         'title': 'Light Gray'
-#     }
-# ]
-
-# JET_SIDE_MENU_COMPACT = True
